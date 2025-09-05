@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import MarqueeStrip from "@/components/Marquee";
 import OtherFacilityes from "@/components/OtherFacilityes";
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <OtherFacilityes />
       <MarqueeStrip />
+      <Contact />
     </main>
   );
 }
