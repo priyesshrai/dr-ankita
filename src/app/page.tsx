@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MarqueeStrip from "@/components/Marquee";
 import OtherFacilityes from "@/components/OtherFacilityes";
@@ -14,6 +15,7 @@ export default function Home() {
       <OtherFacilityes />
       <MarqueeStrip />
       <Contact />
+      <Footer />
     </main>
   );
 }
