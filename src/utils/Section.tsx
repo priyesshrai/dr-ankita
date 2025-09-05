@@ -34,14 +34,14 @@ export function Heading({ children, className, style }: Props) {
 }
 export function Subheading({ children, className, style }: Props) {
     return (
-        <p className={`${className ?? ''} lg:text-base text-sm text-zinc-600 mt-1 text-center font-medium`} style={style}>
+        <p className={`${className ?? ''} lg:text-base text-sm text-zinc-600 mt-1 font-medium`} style={style}>
             {children}
         </p>
     )
 }
 export function ButtonPrimary({ children, className, style, ...rest }: BtnProps) {
     return (
-        <button className={`${className ?? ''} text-white bg-primary-color md:text-base text-sm font-semibold px-5 py-2.5 border-none outline-none cursor-pointer transition-all duration-300 ease-linear hover:bg-primary-hover rounded-md`}
+        <button className={`${className ?? ''} text-white bg-primary-color text-base font-semibold px-5 py-2.5 outline-none cursor-pointer transition-all duration-300 ease-linear hover:bg-primary-hover rounded-md`}
             {...rest}
             style={style}>
             {children}
