@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import AdditionalDetails from "@/components/AdditionalDetails";
 import Blogs from "@/components/Blogs";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -13,13 +14,14 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <AdditionalDetails />
       <Services />
       <About />
       <OtherFacilityes />
       <MarqueeStrip />
-      <Instagram/>
+      <Instagram />
       <Testimonials />
-      <Blogs/>
+      <Blogs />
       <Contact />
       <Footer />
     </main>
