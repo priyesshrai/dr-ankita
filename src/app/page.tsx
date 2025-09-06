@@ -7,6 +7,7 @@ import Instagram from "@/components/Instagram";
 import MarqueeStrip from "@/components/Marquee";
 import OtherFacilityes from "@/components/OtherFacilityes";
 import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <OtherFacilityes />
       <MarqueeStrip />
       <Instagram/>
+      <Testimonials />
       <Blogs/>
       <Contact />
       <Footer />
