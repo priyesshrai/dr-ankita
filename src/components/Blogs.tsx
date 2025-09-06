@@ -53,7 +53,7 @@ export default function Blogs() {
                             Health <span className='!font-open-sans text-primary-color'>Blog & Resources</span>
                         </Heading>
                         <Subheading className='mx-auto max-w-2xl'>
-                            Stay informed with our latest articles on women's health, written by medical professionals to help you make informed decisions about your healthcare.
+                            Stay informed with our latest articles on women&apos;s health, written by medical professionals to help you make informed decisions about your healthcare.
                         </Subheading>
                     </div>
 

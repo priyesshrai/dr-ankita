@@ -54,7 +54,7 @@ export default function Services() {
                             OUR SERVICES
                         </span>
                         <Heading>
-                            Comprehensive <span className='!font-open-sans text-primary-color'>Women's Health Services</span>
+                            Comprehensive <span className='!font-open-sans text-primary-color'>Women&apos;s Health Services</span>
                         </Heading>
                         <Subheading className='mx-auto max-w-3xl'>
                             Highlighting Dr. Satyanarayana Garre&apos;s journey of scholarly achievements, pioneering research, and impactful clinical work in the field of nephrology.
