@@ -1,8 +1,6 @@
 import About from "@/components/About";
 import AdditionalDetails from "@/components/AdditionalDetails";
 import Blogs from "@/components/Blogs";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Instagram from "@/components/Instagram";
 import MarqueeStrip from "@/components/Marquee";
@@ -22,8 +20,6 @@ export default function Home() {
       <Instagram />
       <Testimonials />
       <Blogs />
-      <Contact />
-      <Footer />
     </main>
   );
 }

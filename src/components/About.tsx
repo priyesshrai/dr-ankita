@@ -1,5 +1,7 @@
+'use client';
 import { Heading, Section, Subheading, Wrapper } from '@/utils/Section'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation';
 import React from 'react'
 
 interface Content {
@@ -8,6 +10,7 @@ interface Content {
     icon: string;
 }
 export default function About() {
+    const currentPath = usePathname()
     const content: Content[] = [
         {
             name: 'Education',
@@ -31,7 +34,7 @@ export default function About() {
         },
     ]
     return (
-        <Section className='bg-[#F9FAFB]'>
+        <Section className={`${currentPath !== '/about' ? 'bg-[#F9FAFB]' : 'bg-transparent'} `}>
             <Wrapper>
                 <div className='relative w-full grid lg:grid-cols-[450px_1fr] md:grid-cols-[380px_1fr] grid-cols-1 gap-8'>
                     <div className='relative w-full h-full flex md:justify-start justify-center'>

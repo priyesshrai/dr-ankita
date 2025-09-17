@@ -3,6 +3,8 @@ import "./globals.css";
 import SmoothScrollProvider from "@/utils/SmoothScroll";
 import TopBar from "@/components/TopBar";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "Dr. G. Nikila",
@@ -26,6 +28,8 @@ export default function RootLayout({
           <TopBar />
           <NavBar />
           {children}
+          <Contact />
+          <Footer />
         </SmoothScrollProvider>
       </body>
     </html>
