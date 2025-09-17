@@ -33,12 +33,12 @@ export default function AboutPageStrip() {
 
     ]
     return (
-        <Section>
+        <Section className='!pt-0'>
             <Wrapper>
-                <div className="relative w-full flex flex-wrap gap-5 items-center ">
+                <div className="relative w-full grid lg:grid-cols-4 md:grid-cols-3 min-[550px]:grid-cols-2 grid-cols-1 gap-5 items-center ">
                     {
                         data.map((items, idx) => (
-                            <div className='flex-1 min-w-[200px] flex gap-3 items-center shadow-lg px-5 py-4 rounded-lg' key={idx}>
+                            <div className='flex-1 min-w-[200px] flex gap-3 items-center shadow-lg md:px-5 md:py-8 px-3 py-5 rounded-lg bg-[#F9FAFB]' key={idx}>
                                 <div className='shrink-0'>
                                     <Image src={items.icon} width={56} height={56} alt={items.title} />
                                 </div>
