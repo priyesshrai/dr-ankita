@@ -29,17 +29,17 @@ export default function NavBar() {
         {
             key: 'services',
             name: 'Services',
-            path: '#'
+            path: '/services'
         },
         {
             key: 'contact',
             name: 'Contact',
-            path: '#'
+            path: '/contact'
         },
         {
             key: 'blog',
             name: 'Blogs',
-            path: '#'
+            path: '/blogs'
         }
     ]
     const [isMenuOpen, setIsMenuOpen] = useState(false);
