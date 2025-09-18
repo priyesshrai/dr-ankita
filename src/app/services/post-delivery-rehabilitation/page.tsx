@@ -43,8 +43,8 @@ export default function PostDelivery() {
                                 Post-delivery rehabilitation is a personalized process that considers the unique needs and experiences of each woman. It is essential for mothers to communicate openly with their healthcare providers and participate actively in their recovery. Seeking guidance and support during the postpartum period contributes to a healthier and more positive transition to motherhood.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-1.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-4.jpg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>

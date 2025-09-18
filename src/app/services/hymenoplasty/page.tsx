@@ -56,8 +56,8 @@ export default function Hymenoplasty() {
                                 People who are thinking about having a hymenoplasty should speak candidly and openly with licensed medical professionals who can answer any questions they may have, offer information, go over the advantages and disadvantages of the procedure, and address any underlying concerns. Healthcare professionals are essential in helping people make educated decisions about their bodies and wellbeing.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-1.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-8.jpg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>

@@ -74,8 +74,8 @@ export default function page() {
                                 Those who have vaginal dryness should speak with a healthcare professional to identify the underlying cause and discuss the best course of action. Consulting a physician guarantees a customized strategy that takes into account personal health characteristics and inclinations. Both the physical and emotional components of this common ailment can be addressed with the assistance of a supportive healthcare team and open conversation with a spouse.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-1.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-7.jpg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>

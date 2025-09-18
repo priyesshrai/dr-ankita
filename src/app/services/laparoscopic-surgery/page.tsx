@@ -44,8 +44,8 @@ export default function Laparoscopic() {
                                 Laparoscopic surgery has transformed the surgical field by providing a minimally invasive substitute for numerous conventional treatments. Benefits including a quicker recovery, fewer scarring, and less discomfort after surgery make it a worthwhile alternative for many patients, even though it might not be appropriate in every surgical situation. Patients who are thinking about having laparoscopic surgery should speak with their medical professionals to find the best course of action for their particular situation.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-1.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-5.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>

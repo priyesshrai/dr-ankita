@@ -66,8 +66,8 @@ export default function PreNtalCare() {
                                 Both prenatal care and the delivery process are individualized based on the unique needs and circumstances of each pregnancy. Regular communication with healthcare providers and adherence to recommended care contribute to a healthy pregnancy and positive childbirth experience.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-2.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-2.jpg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>

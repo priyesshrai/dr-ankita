@@ -40,8 +40,8 @@ export default function PregnancyCounselling() {
                                 Counselors with training in reproductive health, psychologists, social workers, and other medical professionals can offer pregnancy counseling. As people or couples traverse the experience of pregnancy and parenthood, the intention is to make sure they feel empowered, knowledgeable, and supported.
                             </Subheading>
                         </div>
-                        <div className="w-full h-full relative flex items-center md:justify-end justify-center md:order-2 order-1">
-                            <Image src={'/images/treatments/img-1.svg'} alt='Infertility Treatment' width={500} height={400} className='' />
+                        <div className="w-full h-full relative flex items-center md:items-start md:justify-end justify-center md:order-2 order-1">
+                            <Image src={'/images/treatments/img-3.jpg'} alt='Infertility Treatment' width={500} height={400} className='' />
                         </div>
                     </div>
                 </Wrapper>
