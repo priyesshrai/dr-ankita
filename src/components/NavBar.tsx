@@ -127,8 +127,8 @@ export default function NavBar() {
             <nav className='relative w-full max-w-7xl mx-auto px-5 py-3 flex items-center justify-between'>
                 <div className='relative shrink-0 w-max'>
                     <Link href={'/'}>
-                        <Image src={'/images/logo/logo-1.svg'} width={250} height={200} alt='Dr. G. Nikila'
-                            className='md:w-[250px] w-[150px] h-auto' />
+                        <Image src={'/images/logo/logo-2.svg'} width={350} height={200} alt='Dr. G. Nikila'
+                            className='md:w-[400px] w-[250px] h-auto' />
                     </Link>
                 </div>
 
