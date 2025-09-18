@@ -31,63 +31,51 @@ export default function Footer() {
             path: '/about'
         },
         {
-            key: 'services',
-            name: 'Services',
-            path: '#'
+            key: 'treatments',
+            name: 'Treatments',
+            path: '/services'
         },
         {
             key: 'contact',
             name: 'Contact',
-            path: '#'
+            path: '/contact'
         },
         {
             key: 'blog',
             name: 'Blogs',
-            path: '#'
+            path: '/blogs'
         }
     ]
     const contactInfo: Contact[] = [
         {
-            name: '37-18/1-A/S-1, Below KFC, Defense Colony, SainikPuri, Secunderabad.',
+            name: 'A. S. Rao Nagar, Arul colony, 1-299/2, 3rd Cross Rd, above aruna diagnostics, Secunderabad, Telangana 500062',
             icon: '/images/footer/pin-white.svg',
-            link: '#'
+            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
         },
         {
             name: '+91 6309683030',
             icon: '/images/footer/phone-white.svg',
-            link: '#'
+            link: 'tel:+916309683030'
         },
         {
             name: 'info@gmail.com',
             icon: '/images/footer/mail-white.svg',
-            link: '#'
+            link: 'mailto:info@gmail.com'
         },
     ]
     const socialMedia: SocialIcons[] = [
         {
             icon: '/images/footer/instagram.svg',
-            link: ''
+            link: 'https://www.instagram.com/dr.g.nikilareddy/'
         },
         {
             icon: '/images/footer/facebook.svg',
-            link: ''
-        },
-        {
-            icon: '/images/footer/linkedin.svg',
-            link: ''
+            link: 'https://www.facebook.com/people/Dr-G-Nikila-Reddy/61573605385904/'
         },
         {
             icon: '/images/footer/youtube.svg',
-            link: ''
-        },
-        {
-            icon: '/images/footer/x.svg',
-            link: ''
-        },
-        {
-            icon: '/images/footer/google.svg',
-            link: ''
-        },
+            link: 'https://www.youtube.com/@Drgnikilareddy'
+        }
     ]
 
     return (
@@ -101,7 +89,7 @@ export default function Footer() {
                     <div className='mt-5 w-full relative flex items-center gap-2'>
                         {
                             socialMedia.map((item, idx) => (
-                                <Link key={idx} href={item.link}>
+                                <Link key={idx} href={item.link} target='_blank'>
                                     <Image src={item.icon} width={32} height={32} alt='Social icon' />
                                 </Link>
                             ))
@@ -142,7 +130,7 @@ export default function Footer() {
                     <div className='relative mt-5 flex items-center justify-center'>
                         <iframe
                             className='rounded-xl h-52'
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15249885.318783779!2d82.75252935!3d21.0680074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1756547193533!5m2!1sen!2sin" width="100%" height="100%" style={{ border: "0" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15222.332737793133!2d78.5394945!3d17.479653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b5665ee50c5%3A0xc392f00b5ab18c8a!2sV.%20S.%20Women%20Clinic!5e0!3m2!1sen!2sin!4v1758191807351!5m2!1sen!2sin" width="100%" height="100%" style={{ border: "0" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                 </div>

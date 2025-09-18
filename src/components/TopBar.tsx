@@ -17,8 +17,8 @@ export default function TopBar() {
                     </div>
                     <div className='w-max flex items-center gap-1'>
                         <Image src='/images/svg/pin.svg' alt='Visit to our location' width={16} height={16} />
-                        <a href='#' className='lg:text-sm md:text-[12px] text-white'>
-                            Akshya Nagar 1st Block 1st Cross
+                        <a href='https://maps.app.goo.gl/QxMz4WTXZdbueZNz7' target='_blank' className='lg:text-sm md:text-[12px] text-white'>
+                         A. S. Rao Nagar, Arul colony, 1-299/2
                         </a>
                     </div>
                 </div>

@@ -13,9 +13,9 @@ export default function Contact() {
     const contactInfo: ContactInfo[] = [
         {
             title: 'Address',
-            content: '37-18/1-A/S-1, Below KFC, Defense Colony, SainikPuri, Secunderabad.',
+            content: 'A. S. Rao Nagar, Arul colony, 1-299/2, 3rd Cross Rd, above aruna diagnostics, Secunderabad, Telangana 500062',
             icon: '/images/contact/pin.svg',
-            link: '#'
+            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
         },
         {
             title: 'Phone',
@@ -64,11 +64,11 @@ export default function Contact() {
                                             <div className='w-8 h-8 shrink-0'>
                                                 <Image src={info.icon} width={32} height={32} alt={info.title} />
                                             </div>
-                                            <div className='relative max-w-[240px]'>
+                                            <div className='relative max-w-[300px]'>
                                                 <h4 className='text-base text-secondry-color font-semibold'>
                                                     {info.title}
                                                 </h4>
-                                                <Link href={info.link} className='relative text-sm font-normal text-zinc-600 leading-[1.1] !font-montserrat'>
+                                                <Link href={info.link} target='_blank' className='relative text-sm font-normal text-zinc-600 leading-[1.1] !font-montserrat'>
                                                     {info.content}
                                                 </Link>
                                             </div>
