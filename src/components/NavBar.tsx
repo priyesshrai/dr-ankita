@@ -168,7 +168,7 @@ export default function NavBar() {
                 </div>
 
                 <div className='lg:flex flex-col items-end hidden relative w-max'>
-                    <ButtonPrimary onClick={()=>setOpenForm(true)}>
+                    <ButtonPrimary onClick={() => setOpenForm(true)}>
                         Book Appointment
                     </ButtonPrimary>
                 </div>
@@ -251,7 +251,7 @@ export default function NavBar() {
                     </div>
 
                     <div className='w-full absolute bottom-0 flex flex-col items-end'>
-                        <ButtonPrimary onClick={() => { setIsMenuOpen(false) }} className='w-full'>
+                        <ButtonPrimary onClick={() => { setIsMenuOpen(false); setOpenForm(true); }} className='w-full'>
                             Book Appointment
                         </ButtonPrimary>
                     </div>

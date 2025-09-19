@@ -1,10 +1,23 @@
+'use client'
 import { ButtonPrimary, Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import BookAppointment from './BookAppointment'
+import { useLenisControl } from '@/utils/SmoothScroll'
 
 export default function Hero() {
+    const { stopScroll, startScroll } = useLenisControl();
+    const [openForm, setOpenForm] = useState<boolean>(false);
+    useEffect(() => {
+        if (openForm) {
+            stopScroll();
+        } else {
+            startScroll();
+        }
+        return () => startScroll();
+    }, [stopScroll, startScroll, openForm]);
     return (
         <Section className='bg-gradient-to-t from-primary-color/20 via-white to-transparent'>
             <Wrapper>
@@ -19,11 +32,11 @@ export default function Hero() {
                         </Subheading>
 
                         <div className='relative mt-8 flex items-center md:flex-row flex-col gap-4'>
-                            <ButtonPrimary className='flex items-center gap-3'>
+                            <ButtonPrimary className='flex items-center gap-3' onClick={() => setOpenForm(true)}>
                                 Schedule Consultation
                                 <Calendar size={16} />
                             </ButtonPrimary>
-                            <Link href='#' className='!font-montserrat text-base text-primary-color font-semibold px-5 py-2.5 rounded-md border border-primary-color'>
+                            <Link href='/services' className='!font-montserrat text-base text-primary-color font-semibold px-5 py-2.5 rounded-md border border-primary-color'>
                                 Learn More
                             </Link>
                         </div>
@@ -66,6 +79,7 @@ export default function Hero() {
                     </div>
                 </div>
             </Wrapper>
+            <BookAppointment openForm={openForm} closeForm={setOpenForm} />
         </Section>
     )
 }
