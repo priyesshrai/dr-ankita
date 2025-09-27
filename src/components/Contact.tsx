@@ -21,19 +21,19 @@ export default function Contact() {
             title: 'Phone',
             content: '+91 6309683030',
             icon: '/images/contact/phone.svg',
-            link: '#'
+            link: 'tel:+916309683030'
         },
         {
             title: 'E-Mail',
-            content: 'info@gmail.com',
+            content: 'vswomenclinic24@gmail.com',
             icon: '/images/contact/mail.svg',
-            link: '#'
+            link: 'mailto:vswomenclinic24@gmail.com'
         },
         {
             title: 'Office Hours',
-            content: 'Monday - Friday: 8:00 AM - 5:00 PM Saturday: 9:00 AM - 2:00 PM Sunday: Closed',
+            content: 'Monday - Saturday: 6:00 AM - 9:00 PM Sunday: Closed',
             icon: '/images/contact/clock-2.svg',
-            link: '#'
+            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
         },
     ]
     return (
@@ -64,7 +64,7 @@ export default function Contact() {
                                             <div className='w-8 h-8 shrink-0'>
                                                 <Image src={info.icon} width={32} height={32} alt={info.title} />
                                             </div>
-                                            <div className='relative max-w-[300px]'>
+                                            <div className='relative max-w-[320px]'>
                                                 <h4 className='text-base text-secondry-color font-semibold'>
                                                     {info.title}
                                                 </h4>
