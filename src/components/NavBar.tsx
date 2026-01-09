@@ -26,12 +26,12 @@ export default function NavBar() {
         // },
         {
             key: 'about',
-            name: 'About',
+            name: 'About Dr.Ankita',
             path: '/about'
         },
         {
             key: 'treatments',
-            name: 'Treatments',
+            name: 'Services',
             submenu: [
                 {
                     key: 'Pregnancy_&_Obstetric_Care',

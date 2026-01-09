@@ -25,10 +25,13 @@ export default function Hero() {
                     <div className="w-full h-full relative flex flex-col justify-center md:items-start items-center">
                         <h1 className='font-bold lg:text-5xl md:text-4xl text-[28px] text-secondry-color 
                         md:text-left text-center leading-[1.3]'>
-                            Helping You <span className='!font-open-sans text-primary-color'>Grow the Life You&apos;ve</span> Imagined
+                            Consultant<span className='!font-open-sans text-primary-color'> Gynecologist & Obstetrician</span>
                         </h1>
                         <Subheading className='mt-2 max-w-xl md:!text-lg !text-base'>
-                            Providing comprehensive gynecological care with expertise, empathy, and respect for every woman&apos;s unique needs.
+                            Compassionate care for women at every stage of life.
+                            <br />
+                            Providing complete women&apos;s healthcare with compassion, expertise, and support through every stage of life.
+
                         </Subheading>
 
                         <div className='relative mt-8 flex items-center md:flex-row flex-col gap-4'>
@@ -68,13 +71,13 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    <div className="w-full h-full relative flex items-center md:justify-end justify-center">
+                    <div className="w-full h-full relative flex items-center justify-center md:justify-end">
                         <Image
-                            src={'/images/hero/hero-main.png'}
-                            width={800}
-                            height={450}
+                            src={'/images/hero/hero.png'}
+                            width={1920}
+                            height={1080}
                             alt='Hero Image'
-                            className='w-full h-[400px] max-w-[570px] object-cover object-center rounded-2xl'
+                            className='w-full max-w-[400px] h-auto object-cover object-center rounded-2xl'
                         />
                     </div>
                 </div>
