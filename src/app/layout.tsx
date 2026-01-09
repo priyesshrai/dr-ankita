@@ -25,7 +25,7 @@ export default function RootLayout({
       </head>
       <body className="overflow-x-hidden">
         <SmoothScrollProvider>
-          <TopBar />
+          {/* <TopBar /> */}
           <NavBar />
           {children}
           <Contact />
