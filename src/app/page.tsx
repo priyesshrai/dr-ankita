@@ -18,7 +18,7 @@ export default function Home() {
       <OtherFacilityes />
       <MarqueeStrip />
       <Instagram />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Blogs />
     </main>
   );

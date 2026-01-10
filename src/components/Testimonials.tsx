@@ -26,56 +26,56 @@ export default function Testimonials() {
         {
             user: 'Chandan Agn',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '1 month ago'
         },
         {
             user: 'Vyomika Bansal',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '2 month ago'
         },
         {
             user: 'Priyank Rai',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '1 month ago'
         },
         {
             user: 'Vinay Mishra',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '1 year ago'
         },
         {
             user: 'Sudeep kumar',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '4 month ago'
         },
         {
             user: 'Sangam Sarees',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '6 month ago'
         },
         {
             user: 'Priyanka Saxena',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '1 month ago'
         },
         {
             user: 'Naveen Kumar P G',
             avatar: '/images/testimonials/user.png',
-            comment: 'I visited Dr Monica\'s clinic few days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Monica is knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
+            comment: 'I visited Dr. Ankita Chauhanfew days ago.i got my teeth cleaning done there.the clinic is clean & tidy. Doctor Ankita Chauhanis knowledgeable & positive person.Her assistant doctors were good & supporting. Overall the experience was good & pain less. I highly recommend this clinic for any teeth related issues.',
             rating: 5,
             time: '3 years ago'
         }
