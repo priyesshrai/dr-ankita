@@ -1,41 +1,8 @@
 import { ButtonPrimary, Heading, Section, Subheading, Wrapper } from '@/utils/Section';
-import Image from 'next/image'
-import Link from 'next/link';
 import React from 'react'
 
-interface ContactInfo {
-    title: string;
-    icon: string;
-    content: string
-    link: string;
-}
 export default function Contact() {
-    const contactInfo: ContactInfo[] = [
-        {
-            title: 'Address',
-            content: 'A. S. Rao Nagar, Arul colony, 1-299/2, 3rd Cross Rd, above aruna diagnostics, Secunderabad, Telangana 500062',
-            icon: '/images/contact/pin.svg',
-            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
-        },
-        {
-            title: 'Phone',
-            content: '+91 6309683030',
-            icon: '/images/contact/phone.svg',
-            link: 'tel:+916309683030'
-        },
-        {
-            title: 'E-Mail',
-            content: 'vswomenclinic24@gmail.com',
-            icon: '/images/contact/mail.svg',
-            link: 'mailto:vswomenclinic24@gmail.com'
-        },
-        {
-            title: 'Office Hours',
-            content: 'Monday - Saturday: 6:00 AM - 9:00 PM Sunday: Closed',
-            icon: '/images/contact/clock-2.svg',
-            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
-        },
-    ]
+
     return (
         <Section>
             <Wrapper>
@@ -51,30 +18,9 @@ export default function Contact() {
                     </div>
 
                     <div className='relative w-full grid md:grid-cols-2 grid-cols-1 gap-5'>
-                        <div className="w-full h-full relative md:p-8 p-3 bg-white rounded-2xl border border-neutral-200">
-                            <div className='w-full relative'>
-                                <h3 className='font-bold text-xl text-secondry-color'>
-                                    Contact Information
-                                </h3>
-                            </div>
-                            <div className='w-full mt-5 flex flex-col gap-6'>
-                                {
-                                    contactInfo.map((info, idx) => (
-                                        <div className='relative w-full flex gap-2' key={idx}>
-                                            <div className='w-8 h-8 shrink-0'>
-                                                <Image src={info.icon} width={32} height={32} alt={info.title} />
-                                            </div>
-                                            <div className='relative max-w-[320px]'>
-                                                <h4 className='text-base text-secondry-color font-semibold'>
-                                                    {info.title}
-                                                </h4>
-                                                <Link href={info.link} target='_blank' className='relative text-sm font-normal text-zinc-600 leading-[1.1] !font-montserrat'>
-                                                    {info.content}
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    ))
-                                }
+                        <div className="w-full h-full relative md:p-5 p-3 bg-white rounded-2xl border border-neutral-200">
+                            <div className='w-full h-full overflow-hidden rounded-md border border-gray-300'>
+                                <iframe className='h-full' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30447.937337428022!2d78.353494!3d17.460089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb938043dc2559%3A0xbea6678253f1d49d!2sWomen%20Care%20-%20Dr%20Ankita%20Chauhan!5e0!3m2!1sen!2sus!4v1768029609248!5m2!1sen!2sus" width="100%" height="100%" style={{ border: "0" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
 

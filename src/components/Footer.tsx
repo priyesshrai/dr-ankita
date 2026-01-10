@@ -27,12 +27,12 @@ export default function Footer() {
         },
         {
             key: 'about',
-            name: 'About',
+            name: 'About Dr. Ankita',
             path: '/about'
         },
         {
             key: 'treatments',
-            name: 'Treatments',
+            name: 'Services',
             path: '/services'
         },
         {
@@ -48,41 +48,44 @@ export default function Footer() {
     ]
     const contactInfo: Contact[] = [
         {
-            name: 'A. S. Rao Nagar, Arul colony, 1-299/2, 3rd Cross Rd, above aruna diagnostics, Secunderabad, Telangana 500062',
+            name: '206 B, Botanical Garden Rd, Sri Ram Nagar, Gachibowli, Kondapur, Telangana 500084',
             icon: '/images/footer/pin-white.svg',
-            link: 'https://maps.app.goo.gl/QxMz4WTXZdbueZNz7'
+            link: 'https://maps.app.goo.gl/NiVQhbtNcaHpQBjUA'
         },
         {
-            name: '+91 6309683030',
+            name: '+91 98812 79493',
             icon: '/images/footer/phone-white.svg',
-            link: 'tel:+916309683030'
+            link: 'tel:+919881279493'
         },
         {
-            name: 'vswomenclinic24@gmail.com',
+            name: 'doctorankitachauhan@gmail.com',
             icon: '/images/footer/mail-white.svg',
-            link: 'mailto:vswomenclinic24@gmail.com'
+            link: 'mailto:doctorankitachauhan@gmail.com'
         },
     ]
     const socialMedia: SocialIcons[] = [
         {
             icon: '/images/footer/instagram.svg',
-            link: 'https://www.instagram.com/dr.g.nikilareddy/'
-        },
-        {
-            icon: '/images/footer/facebook.svg',
-            link: 'https://www.facebook.com/people/Dr-G-Nikila-Reddy/61573605385904/'
+            link: 'https://www.instagram.com/dr.ankitachauhan_'
         },
         {
             icon: '/images/footer/youtube.svg',
-            link: 'https://www.youtube.com/@Drgnikilareddy'
+            link: 'https://www.youtube.com/@DrAnkitaChauhan'
         }
     ]
 
     return (
         <footer className='bg-[#2a283e] lg:!pt-20 md:!pt-16 pt-11 w-full relative pb-5'>
-            <div className='w-full max-w-7xl relative mx-auto px-6 grid lg:grid-cols-[450px_200px_1fr_1fr] md:grid-cols-2 grid-cols-1 gap-5 mb-10'>
+            <div className='w-full max-w-7xl relative mx-auto px-6 grid lg:grid-cols-[380px_200px_1fr_1fr] md:grid-cols-2 grid-cols-1 gap-5 mb-10'>
                 <div className="w-full h-full relative flex flex-col">
-                    <Image src='/images/logo/footer.svg' alt='' width={400} height={200} />
+                    <div className='flex gap-1 items-center'>
+                        <Image src={'/images/logo/new-logo-1.png'} alt='Dr Ankita'
+                            width={400} height={100} className='w-14'
+                        />
+                        <Image src={'/images/logo/new-logo-2.png'} alt='Dr Ankita'
+                            width={400} height={100} className='w-54'
+                        />
+                    </div>
                     <Subheading className='text-left mt-5 !text-white !text-sm font-normal'>
                         Dedicated to women&apos;s health at every stage of life, with compassionate and personalized gynecological care. We combine medical expertise with a supportive, welcoming environment.
                     </Subheading>
@@ -139,7 +142,7 @@ export default function Footer() {
             <div className='relative border-t border-neutral-100 pt-5'>
                 <div className='flex items-center md:justify-between justify-center md:flex-row flex-col gap-1 max-w-7xl relative mx-auto px-6 w-full'>
                     <span className='md:text-sm text-[10px] font-normal text-white text-center'>
-                        Copyright @ 2025 Dr. Ankita Chauhan Reddy. All rights reserved.
+                        Copyright @ {new Date().getFullYear()} Dr. Ankita Chauhan Reddy. All rights reserved.
                     </span>
                     <Link href={'#'} className='!font-montserrat md:text-sm text-[10px] font-normal text-white'>
                         Made with by ❤ Wizards Next.
