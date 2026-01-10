@@ -1,4 +1,4 @@
-import AboutDesc from '@/components/AboutDesc'
+import AboutDesc, { OtherData } from '@/components/AboutDesc'
 import AboutPageStrip from '@/components/AboutPageStrip'
 import Academic from '@/components/Academic'
 import OurMission from '@/components/OurMission'
@@ -9,7 +9,8 @@ export default function AboutPage() {
     <main className='relative w-full'>
       <AboutDesc />
       <AboutPageStrip />
-      <Academic/>
+      <Academic />
+      <OtherData />
     </main>
   )
 }

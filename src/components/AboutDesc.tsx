@@ -77,3 +77,29 @@ export default function AboutDesc() {
         </Section>
     )
 }
+
+
+export function OtherData() {
+    return (
+        <Section>
+            <Wrapper>
+                <div className='relative w-full flex flex-col gap-5'>
+                    <div className='flex-1 text-center'>
+                        <Heading>
+                            Approach to Women&apos;s Health
+                        </Heading>
+                    </div>
+
+                    <div className='flex-1 relative max-w-3xl mx-auto'>
+                        <Subheading className='text-center'>
+                            Dr. Ankita Chauhan follows a personalized and ethical approach to women&apos;s healthcare, focusing on understanding each patient&apos;s concerns and medical needs. She believes in clear communication, honest guidance, and providing treatment options that prioritize safety, comfort, and long-term well-being.
+                        </Subheading>
+                        <Subheading className='mt-2 text-center'>
+                            Her goal is to create a supportive and respectful environment where patients feel confident, informed, and comfortable at every step of their care journey.
+                        </Subheading>
+                    </div>
+                </div>
+            </Wrapper>
+        </Section>
+    )
+}

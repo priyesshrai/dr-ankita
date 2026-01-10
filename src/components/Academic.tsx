@@ -19,7 +19,7 @@ export default function Academic() {
                     <div className='flex-1 relative grid lg:grid-cols-2 grid-cols-1 gap-6'>
                         <div className="w-full h-full flex flex-col gap-6">
                             <div className="flex-1 p-6 relative bg-[#F9FAFB] rounded-3xl">
-                                <div className='relative w-max px-3 py-3 bg-[#DBEAFE] rounded-2xl'>
+                                <div className='relative w-max px-3 py-3 bg-[#e8ebf7] rounded-2xl'>
                                     <Image src={'/images/academic/icon-1.svg'} width={56} height={56} alt='Icon' />
                                 </div>
 
@@ -44,7 +44,7 @@ export default function Academic() {
                             </div>
 
                             <div className="flex-1 p-6 relative bg-[#F9FAFB] rounded-3xl">
-                                <div className='relative w-max px-3 py-3 bg-[#DBEAFE] rounded-2xl'>
+                                <div className='relative w-max px-3 py-3 bg-[#e8ebf7] rounded-2xl'>
                                     <Image src={'/images/academic/icon-3.svg'} width={56} height={56} alt='Icon' />
                                 </div>
 
@@ -77,7 +77,7 @@ export default function Academic() {
 
                         <div className="w-full h-full flex flex-col gap-6">
                             <div className="flex-1 p-6 relative bg-[#F9FAFB] rounded-3xl">
-                                <div className='relative w-max px-3 py-3 bg-[#DBEAFE] rounded-2xl'>
+                                <div className='relative w-max px-3 py-3 bg-[#e8ebf7] rounded-2xl'>
                                     <Image src={'/images/academic/icon-2.svg'} width={56} height={56} alt='Icon' />
                                 </div>
 
@@ -102,7 +102,7 @@ export default function Academic() {
                             </div>
 
                             <div className="flex-1 p-6 relative bg-[#F9FAFB] rounded-3xl">
-                                <div className='relative w-max px-3 py-3 bg-[#DBEAFE] rounded-2xl'>
+                                <div className='relative w-max px-3 py-3 bg-[#e8ebf7] rounded-2xl'>
                                     <Image src={'/images/academic/icon-4.svg'} width={56} height={56} alt='Icon' />
                                 </div>
 
