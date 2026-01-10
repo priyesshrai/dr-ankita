@@ -4,10 +4,10 @@ import React from 'react'
 
 export default function Instagram() {
     const instaPost: string[] = [
-        "/images/insta/insta-1.png",
-        "/images/insta/insta-2.png",
-        "/images/insta/insta-3.png",
-        "/images/insta/insta-4.png"
+        "/images/insta/insta-new-1.jpg",
+        "/images/insta/insta-new-2.jpg",
+        "/images/insta/insta-new-3.jpg",
+        "/images/insta/insta-new-4.jpg"
     ]
     return (
         <Section>
@@ -26,7 +26,7 @@ export default function Instagram() {
                         {
                             instaPost.map((data, idx) => (
                                 <div key={idx} className='w-full h-full relative'>
-                                    <Image src={data} alt='Instagram Post' width={300} height={500} className='w-full cursor-pointer' />
+                                    <Image src={data} alt='Instagram Post' width={300} height={500} className='w-full cursor-pointer h-[450px] object-cover object-left-top rounded-xl' />
                                 </div>
                             ))
                         }
