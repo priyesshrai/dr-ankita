@@ -1,6 +1,7 @@
 'use client';
 import { Heading, Section, Subheading, Wrapper } from '@/utils/Section'
 import Image from 'next/image'
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
 
@@ -14,22 +15,22 @@ export default function About() {
     const content: Content[] = [
         {
             name: 'Education',
-            content: 'MBBS, MS, OBG from Johns Hopkins University, Residency at Mayo Clinic',
+            content: 'MBBS, MS – Obstetrics & Gynecology Fellowship in Laparoscopy',
             icon: '/images/about/icon-1.svg'
         },
         {
             name: 'Certifications',
-            content: 'Board Certified by American Board of Obstetrics and Gynecology',
+            content: 'Member of FOGSI & IMA Registered Medical Practitioner (MCI)',
             icon: '/images/about/icon-2.svg'
         },
         {
             name: 'Patients Served',
-            content: 'Over 5,000 women have trusted their care to Dr. G. Nikila Reddy',
+            content: 'rusted by women for comprehensive obstetric and gynecological care',
             icon: '/images/about/icon-3.svg'
         },
         {
             name: 'Experience',
-            content: '10+ years of dedicated practice in women\'s healthcare',
+            content: '10+ years of dedicated experience in women\'s healthcare',
             icon: '/images/about/icon-4.svg'
         },
     ]
@@ -38,7 +39,7 @@ export default function About() {
             <Wrapper>
                 <div className='relative w-full grid lg:grid-cols-[450px_1fr] md:grid-cols-[380px_1fr] grid-cols-1 gap-8'>
                     <div className='relative w-full h-full flex md:justify-start justify-center'>
-                        <Image src='/images/about/doc-image.png' width={450} height={400} alt='Dr. G. Nikila'
+                        <Image src='/images/about/doc-img.png' width={450} height={400} alt='Dr. G. Nikila'
                             className='max-h-[550px] w-auto h-full' />
                     </div>
                     <div className='w-full h-full relative'>
@@ -46,14 +47,18 @@ export default function About() {
                             ABOUT OUR DOCTOR
                         </span>
                         <Heading className='mt-2'>
-                            Dr. G. Nikila Reddy
+                            Dr. Ankita Chauhan
                         </Heading>
                         <Subheading>
-                            In Hyderabad, Dr. Nikila Reddy practices laparoscopic surgery, obstetrics, and senior gynecology. she received extensive training in both India and the Dubai. she has been practicing obstetrics and gynecology for more than 10+ years. Her primary interests include high-risk obstetrics and minimal access surgery, commonly referred to as endoscopic surgery (laparoscopy and hysteroscopy). she has committed herself to treating women and educating them about the issues affecting their quality of life because she is a fervent supporter of women&apos;s health. she makes it a point to provide each patient with the best possible care.
+                            Dr. Ankita Chauhan is a highly experienced Consultant Obstetrician & Gynecologist dedicated to comprehensive women&apos;s healthcare. She holds an MBBS degree with distinction in Obstetrics & Gynecology, followed by an MS in Obstetrics & Gynecology and advanced fellowship training in laparoscopy.
                         </Subheading>
                         <Subheading className='mt-2'>
-                            Her areas of expertise include managing a wide range of issues, primarily related to infertility and surgery; these include recurrent abortions, total laparoscopic hysterectomy, surgical management of uterine fibroids, and various other general gynecological issues, such as polycystic ovarian disease (PCOD), bleeding disorders in women, menopausal symptoms, hormone replacement therapy, etc. In addition, her has a great deal of experience handling obstetric and gynecological situations.
+                            With over 10+ years of expertise, Dr. Ankita specializes in pregnancy care, high-risk obstetrics, normal and caesarean deliveries, minimally invasive and laparoscopic gynecologic surgeries, and cosmetic gynecology. Patients trust her for compassionate care, accurate diagnosis, and personalized treatment plans.
                         </Subheading>
+
+                        {currentPath !== "/about" && <Link href={'/about'} className='px-4 py-2 bg-primary-color text-white text-sm rounded mt-4 block w-max ml-auto transition-colors duration-300 hover:bg-primary-hover'>
+                            Read More
+                        </Link>}
 
                         <div className='relative w-full mt-10 grid md:grid-cols-2 grid-cols-1 gap-5 gap-y-8'>
                             {
