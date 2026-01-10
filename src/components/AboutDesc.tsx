@@ -21,7 +21,7 @@ export default function AboutDesc() {
         },
         {
             name: 'Patients Served',
-            content: 'rusted by women for comprehensive obstetric and gynecological care',
+            content: 'Trusted by women for comprehensive obstetric and gynecological care',
             icon: '/images/about/icon-3.svg'
         },
         {
@@ -46,7 +46,7 @@ export default function AboutDesc() {
                             Dr. Ankita Chauhan
                         </Heading>
                         <Subheading>
-                            Dr. Ankita Chauhan is a Consultant Obstetrician and Gynecologist with extensive experience in managing a wide spectrum of women7apos;s health concerns. Her clinical practice focuses on providing comprehensive care across pregnancy, childbirth, and gynecological health, with special attention to individual patient needs.
+                            Dr. Ankita Chauhan is a Consultant Obstetrician and Gynecologist with extensive experience in managing a wide spectrum of women&apos;s health concerns. Her clinical practice focuses on providing comprehensive care across pregnancy, childbirth, and gynecological health, with special attention to individual patient needs.
                         </Subheading>
                         <Subheading className='mt-2'>
                             She is known for her calm approach, clear communication, and ability to guide patients through important health decisions with confidence. Dr. Ankita believes in combining medical expertise with empathy, ensuring every woman feels heard, supported, and cared for throughout her treatment journey.

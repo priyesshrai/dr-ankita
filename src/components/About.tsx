@@ -25,7 +25,7 @@ export default function About() {
         },
         {
             name: 'Patients Served',
-            content: 'rusted by women for comprehensive obstetric and gynecological care',
+            content: 'Trusted by women for comprehensive obstetric and gynecological care',
             icon: '/images/about/icon-3.svg'
         },
         {
