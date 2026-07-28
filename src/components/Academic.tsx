@@ -12,7 +12,7 @@ export default function Academic() {
                             Academic Excellence & Clinical Contributions
                         </Heading>
                         <Subheading className='mx-auto max-w-3xl'>
-                            Highlighting Dr. Satyanarayana Garre&apos;s journey of scholarly achievements, pioneering research, and impactful clinical work in the field of nephrology.
+                            Highlighting Dr. Ankita journey of scholarly achievements, pioneering research, and impactful clinical work in the field of nephrology.
                         </Subheading>
                     </div>
 

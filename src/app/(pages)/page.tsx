@@ -23,7 +23,7 @@ export default function Home() {
         <OtherFacilityes />
         <MarqueeStrip />
         <Instagram />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Blogs />
         <Contact />
       </main>
