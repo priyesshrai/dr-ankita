@@ -24,7 +24,7 @@ export default function BlogFour() {
                     </div>
 
                     <Subheading className='mt-5 '>
-                        After giving birth, many new mothers feel overwhelmed, tired or emotional. These feelings are common. But when sadness, anxiety, or hopelessness lasts longer than it should, it might be postpartum depression. Dr. Nikila Reddy, senior gynecologist in Hyderabad, shares what postpartum depression is, its signs, causes, and how to find help.
+                        After giving birth, many new mothers feel overwhelmed, tired or emotional. These feelings are common. But when sadness, anxiety, or hopelessness lasts longer than it should, it might be postpartum depression. Dr. Ankita Chauhan, senior gynecologist in Hyderabad, shares what postpartum depression is, its signs, causes, and how to find help.
                     </Subheading>
                     <Image src='/images/blog/img-4.jpg' alt='Understanding Postpartum Depression: Signs, Causes & Hope' width={800} height={500} className='w-full h-[400px] object-cover mt-5 rounded' />
 
@@ -87,7 +87,7 @@ export default function BlogFour() {
                                 Postpartum depression is treatable. Many women recover well and go on to enjoy motherhood. Treatment can include counselling (talk therapy), sometimes medication when needed, lifestyle changes, rest, ensuring help with baby care and household tasks, restoring sleep, and strong emotional support.
                             </Subheading>
                             <Subheading className='mt-1'>
-                                Taking care of yourself is not selfish—it helps you care for your baby better. If you are in or near Hyderabad and believe you or someone you know may have postpartum depression, consulting Dr. Nikila Reddy can be a strong first step. Her care can guide diagnosis, treatment, and emotional support tailored to your needs.
+                                Taking care of yourself is not selfish—it helps you care for your baby better. If you are in or near Hyderabad and believe you or someone you know may have postpartum depression, consulting Dr. Ankita Chauhan can be a strong first step. Her care can guide diagnosis, treatment, and emotional support tailored to your needs.
                             </Subheading>
                         </div>
                     </div>

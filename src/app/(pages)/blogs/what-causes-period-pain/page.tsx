@@ -66,7 +66,7 @@ export default function BlogOne() {
                     </div>
 
                     <Subheading className='mt-5 '>
-                        Period pain, also called menstrual cramps or dysmenorrhea, is something many women experience every month. Sometimes the pain is mild and manageable. Other times it can be very strong and affect daily life. Dr. Nikila Reddy, senior gynaecologist in Hyderabad, explains why period pain occurs, what might make it worse, and when to see a doctor.
+                        Period pain, also called menstrual cramps or dysmenorrhea, is something many women experience every month. Sometimes the pain is mild and manageable. Other times it can be very strong and affect daily life. Dr. Ankita Chauhan, senior gynaecologist in Hyderabad, explains why period pain occurs, what might make it worse, and when to see a doctor.
                     </Subheading>
                     <Image src='/images/blog/img-1.jpg' alt='What Causes Period Pain — Understanding the Pain with Clarity' width={800} height={500} className='w-full h-[400px] object-cover mt-5 rounded' />
 
@@ -141,7 +141,7 @@ export default function BlogOne() {
                                 What Can Be Done — Hope & Relief
                             </h2>
                             <Subheading className='mt-1'>
-                                Even strong period pain often has treatments that help. Dr. Nikila Reddy suggests the following approaches:
+                                Even strong period pain often has treatments that help. Dr. Ankita Chauhan suggests the following approaches:
                             </Subheading>
                             <ul className='mt-3 flex flex-col gap-1 list-disc pl-8 text-zinc-700'>
                                 {
@@ -159,7 +159,7 @@ export default function BlogOne() {
                                 Final Thoughts
                             </h2>
                             <Subheading className='mt-3'>
-                                Period pain is often a normal part of menstruation, but it should not be ignored—especially if it&apos;s severe, getting worse, or affecting your daily life. Recognizing what might be causing the pain is the first step toward relief. For those in Hyderabad or nearby, Dr. Nikila Reddy is available for consultations, examinations, and tailored treatment plans. Don&apos;t suffer in silence—comfort and help are possible.
+                                Period pain is often a normal part of menstruation, but it should not be ignored—especially if it&apos;s severe, getting worse, or affecting your daily life. Recognizing what might be causing the pain is the first step toward relief. For those in Hyderabad or nearby, Dr. Ankita Chauhan is available for consultations, examinations, and tailored treatment plans. Don&apos;t suffer in silence—comfort and help are possible.
                             </Subheading>
 
                         </div>

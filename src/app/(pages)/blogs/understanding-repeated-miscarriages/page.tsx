@@ -70,7 +70,7 @@ export default function BlogTwo() {
                     </div>
 
                     <Subheading className='mt-5 '>
-                        Repeated miscarriages, also called recurrent pregnancy loss, is when a woman has two or more miscarriages. This situation is painful emotionally and physically, and many couples want to understand why it&apos;s happening and what can be done. Dr. Nikila Reddy, senior gynaecologist in Hyderabad, explains causes, what to look for, and how to move forward with hope.
+                        Repeated miscarriages, also called recurrent pregnancy loss, is when a woman has two or more miscarriages. This situation is painful emotionally and physically, and many couples want to understand why it&apos;s happening and what can be done. Dr. Ankita Chauhan, senior gynaecologist in Hyderabad, explains causes, what to look for, and how to move forward with hope.
                     </Subheading>
                     <Image src='/images/blog/img-2.jpg' alt='Understanding Repeated Miscarriages: Causes, Symptoms & Hope' width={800} height={500} className='w-full h-[400px] object-cover mt-5 rounded' />
 
@@ -153,7 +153,7 @@ export default function BlogTwo() {
                             <Subheading className='mt-3'>
                                 Repeated miscarriage is painful, but it is not a sign of failure. Many women face this, and many go on to have healthy babies. The key is early evaluation, finding any treatable cause, making healthy changes, and working with a caring obstetrician/gynecologist.
                                 <br /><br />
-                                If you have experienced two or more miscarriages, reach out for help. Dr. Nikila Reddy in Hyderabad is here to listen, investigate, support, and guide you on this journey. With the right care, there is always hope.
+                                If you have experienced two or more miscarriages, reach out for help. Dr. Ankita Chauhan in Hyderabad is here to listen, investigate, support, and guide you on this journey. With the right care, there is always hope.
                             </Subheading>
 
                         </div>

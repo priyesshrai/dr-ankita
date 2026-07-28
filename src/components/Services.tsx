@@ -91,25 +91,17 @@ export default function Services() {
             ]
         },
         {
-            name: 'Cosmetic & Laser Gynecology',
+            name: 'Laser Gynecology',
             summary: 'Modern laser treatments to improve comfort and intimate health. Focused on confidence, care, and long-term well-being.',
             icon: '/images/services/new-icon-4.svg',
             treatment: [
                 {
                     name: "Laser treatment for stress urinary incontinence",
-                    path: "/cosmetic_&_laser_gynecology/laser_treatment_for_stress_urinary_incontinence"
+                    path: "/laser_gynecology/laser_treatment_for_stress_urinary_incontinencee"
                 },
                 {
                     name: "Vaginal tightening procedures",
-                    path: "/cosmetic_&_laser_gynecology/vaginal_tightening_procedures"
-                },
-                {
-                    name: "Treatment for pigmentation",
-                    path: "/cosmetic_&_laser_gynecology/treatment_for_pigmentation"
-                },
-                {
-                    name: "Management of chronic infections",
-                    path: "/cosmetic_&_laser_gynecology/management_of_chronic_infections"
+                    path: "/laser_gynecology/vaginal_tightening_procedures"
                 },
             ]
         },
