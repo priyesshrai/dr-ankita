@@ -55,7 +55,7 @@ export default function BlogThree() {
                     <Subheading className='mt-5 '>
                         Polycystic Ovary Syndrome (PCOS) is a common health condition that affects many women. While some women experience clear signs like irregular periods or weight gain, others may have what is called silent PCOS. In this condition, the symptoms are not very obvious, and many women may not realize they have it until they face issues with fertility or undergo routine health check-ups. Silent PCOS can still affect health in the long run, which is why understanding its hidden signs is important.
                         <br />
-                        Dr. Nikila Reddy, Senior Gynecologist in Hyderabad, explains that even when PCOS does not show visible symptoms, the body gives subtle signals. Recognizing these early can help in getting the right treatment and preventing complications.
+                        Dr. Ankita Chauhan, Senior Gynecologist in Hyderabad, explains that even when PCOS does not show visible symptoms, the body gives subtle signals. Recognizing these early can help in getting the right treatment and preventing complications.
                     </Subheading>
                     <Image src='/images/blog/img-3.jpg' alt='Symptoms of Silent PCOS' width={800} height={500} className='w-full h-[400px] object-cover mt-5 rounded' />
 
@@ -116,7 +116,7 @@ export default function BlogThree() {
                                 }
                             </ul>
                             <Subheading className='mt-1'>
-                                This is why Dr. Nikila Reddy advises women not to ignore even small changes in their body and to go for regular gynecological check-ups.
+                                This is why Dr. Ankita Chauhan advises women not to ignore even small changes in their body and to go for regular gynecological check-ups.
                             </Subheading>
                         </div>
 
@@ -136,7 +136,7 @@ export default function BlogThree() {
                             <Subheading className='mt-3'>
                                 Silent PCOS may not show strong warning signs, but it can still affect your health over time. Listening to your body, noticing small changes, and seeking timely medical advice is the key to staying healthy.
                                 <br /><br />
-                                If you have concerns about PCOS or your menstrual health, consult Dr. Nikila Reddy, Senior Gynecologist in Hyderabad, for expert guidance and care.
+                                If you have concerns about PCOS or your menstrual health, consult Dr. Ankita Chauhan, Senior Gynecologist in Hyderabad, for expert guidance and care.
                             </Subheading>
 
                         </div>

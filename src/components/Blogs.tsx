@@ -15,14 +15,14 @@ export default function Blogs() {
     const blog: Blog[] = [
         {
             title: 'What Causes Period Pain — Understanding the Pain with Clarity',
-            content: 'Period pain, also called menstrual cramps or dysmenorrhea, is something many women experience every month. Sometimes the pain is mild and manageable. Other times it can be very strong and affect daily life. Dr. Nikila Reddy, senior gynaecologist in Hyderabad, explains why period pain occurs, what might make it worse, and when to see a doctor.',
+            content: 'Period pain, also called menstrual cramps or dysmenorrhea, is something many women experience every month. Sometimes the pain is mild and manageable. Other times it can be very strong and affect daily life. Dr. Ankita Chauhan, senior gynaecologist in Hyderabad, explains why period pain occurs, what might make it worse, and when to see a doctor.',
             image: '/images/blog/img-1.jpg',
             link: '/blogs/what-causes-period-pain',
             date: 'June 15, 2025'
         },
         {
             title: 'Understanding Repeated Miscarriages: Causes, Symptoms & Hope',
-            content: 'Repeated miscarriages, also called recurrent pregnancy loss, is when a woman has two or more miscarriages. This situation is painful emotionally and physically, and many couples want to understand why it’s happening and what can be done. Dr. Nikila Reddy, senior gynaecologist in Hyderabad, explains causes, what to look for, and how to move forward with hope.',
+            content: 'Repeated miscarriages, also called recurrent pregnancy loss, is when a woman has two or more miscarriages. This situation is painful emotionally and physically, and many couples want to understand why it’s happening and what can be done. Dr. Ankita Chauhan, senior gynaecologist in Hyderabad, explains causes, what to look for, and how to move forward with hope.',
             image: '/images/blog/img-2.jpg',
             link: '/blogs/understanding-repeated-miscarriages',
             date: 'June 15, 2025'
@@ -36,7 +36,7 @@ export default function Blogs() {
         },
         {
             title: 'Understanding Postpartum Depression: Signs, Causes & Hope',
-            content: 'After giving birth, many new mothers feel overwhelmed, tired or emotional. These feelings are common. But when sadness, anxiety, or hopelessness lasts longer than it should, it might be postpartum depression. Dr. Nikila Reddy, senior gynecologist in Hyderabad, shares what postpartum depression is, its signs, causes, and how to find help.',
+            content: 'After giving birth, many new mothers feel overwhelmed, tired or emotional. These feelings are common. But when sadness, anxiety, or hopelessness lasts longer than it should, it might be postpartum depression. Dr. Ankita Chauhan, senior gynecologist in Hyderabad, shares what postpartum depression is, its signs, causes, and how to find help.',
             image: '/images/blog/img-4.jpg',
             link: '/blogs/understanding-postpartum-depression',
             date: 'June 15, 2025'

@@ -78,7 +78,7 @@ export default function page() {
                     </div>
                     <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=1600&auto=format&fit=crop"
+                            src="/images/all-service/laser_gynecology/img-1.jpg"
                             alt="Laser treatment for stress urinary incontinence"
                             fill
                             className="object-cover"
@@ -93,7 +93,7 @@ export default function page() {
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden order-2 lg:order-1">
                         <Image
-                            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop"
+                            src="/images/all-service/laser_gynecology/img-2.jpg"
                             alt="Understanding stress urinary incontinence"
                             fill
                             className="object-cover"
@@ -178,7 +178,7 @@ export default function page() {
                     </div>
                     <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1584516150909-c43483ee7932?q=80&w=1200&auto=format&fit=crop"
+                            src="/images/all-service/laser_gynecology/img-3.jpg"
                             alt="What is laser treatment for SUI"
                             fill
                             className="object-cover"
@@ -243,7 +243,7 @@ export default function page() {
 
                     <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1200&auto=format&fit=crop"
+                            src="/images/all-service/laser_gynecology/img-4.jpg"
                             alt="Laser treatment procedure and recovery"
                             fill
                             className="object-cover"
@@ -306,7 +306,7 @@ export default function page() {
                         </div>
                         <div className="relative w-full h-[260px] md:h-[360px] rounded-xl overflow-hidden">
                             <Image
-                                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1200&auto=format&fit=crop"
+                                src="/images/all-service/laser_gynecology/img-5.jpg"
                                 alt="Personalized consultation for bladder health"
                                 fill
                                 className="object-cover"

@@ -1,4 +1,5 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
 const fibroidSymptoms = [
@@ -15,18 +16,21 @@ const conditions = [
         subtitle: 'Laparoscopic Myomectomy',
         desc: 'Fibroids are non-cancerous growths that develop in or around the uterus. Laparoscopic myomectomy removes fibroids while preserving the uterus — an option often preferred by women who wish to maintain their fertility or avoid a hysterectomy. The minimally invasive approach allows for precise removal of fibroids with reduced blood loss and quicker recovery compared to traditional surgery.',
         note: 'For selected patients, laparoscopic surgery can significantly improve symptoms and enhance quality of life while preserving reproductive health.',
+        image: '/images/all-service/advanced_procedures/img-8.jpg',
     },
     {
         title: 'Ovarian Cysts',
         subtitle: 'Laparoscopic Ovarian Cystectomy',
         desc: 'Ovarian cysts are fluid-filled sacs that develop on or within the ovaries. While many cysts resolve naturally, some may grow larger, cause pain, or affect ovarian function, requiring surgical treatment. Laparoscopic ovarian cystectomy allows the surgeon to remove the cyst while preserving healthy ovarian tissue whenever possible. The procedure is commonly recommended for persistent, large, painful, or suspicious cysts that require further evaluation.',
         note: 'This minimally invasive approach helps reduce postoperative discomfort, lowers the risk of complications, and enables women to return to their normal activities more quickly. Preserving ovarian function remains a key priority, particularly for women planning future pregnancies.',
+        image: '/images/all-service/advanced_procedures/img-9.jpg',
     },
     {
         title: 'Endometriosis',
         subtitle: 'Laparoscopic Management',
         desc: 'Endometriosis is a condition in which tissue similar to the lining of the uterus grows outside the uterus, often affecting the ovaries, fallopian tubes, and pelvic tissues. It can cause severe menstrual pain, chronic pelvic pain, painful intercourse, and fertility challenges. Laparoscopy is considered one of the most effective methods for diagnosing and treating endometriosis. During the procedure, the surgeon can identify and remove or destroy endometrial implants, scar tissue, and adhesions that may be contributing to symptoms.',
         note: 'By reducing the extent of disease and restoring normal pelvic anatomy, laparoscopic treatment can help relieve pain, improve fertility outcomes, and enhance overall quality of life for women living with endometriosis.',
+        image: '/images/all-service/advanced_procedures/img-10.jpg',
     },
 ]
 
@@ -39,12 +43,24 @@ const benefits = [
     'Faster recovery',
 ]
 
-function ImagePlaceholder({ className = '', label = 'Image Placeholder' }: { className?: string; label?: string }) {
+function SectionImage({
+    className = '',
+    src,
+    alt,
+}: {
+    className?: string
+    src: string
+    alt: string
+}) {
     return (
-        <div
-            className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 flex items-center justify-center ${className}`}
-        >
-            <span className="font-open-sans text-sm text-zinc-400">{label}</span>
+        <div className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 ${className}`}>
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </div>
     )
 }
@@ -71,14 +87,22 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/advanced_procedures/img-6.jpg"
+                        alt="Laparoscopic gynecological surgery"
+                    />
                 </Wrapper>
             </Section>
 
             {/* What Is Laparoscopic Gynecological Surgery */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <SectionImage
+                        className="h-[300px] md:h-[400px] order-2 lg:order-1"
+                        src="/images/all-service/advanced_procedures/img-7.jpg"
+                        alt="Laparoscope used during gynecological surgery"
+                    />
                     <div className="order-1 lg:order-2">
                         <Heading>What Is Laparoscopic Gynecological Surgery?</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -142,7 +166,11 @@ export default function page() {
                                 className={`grid lg:grid-cols-2 gap-10 items-center ${idx % 2 === 1 ? 'lg:[&>*:first-child]:order-2' : ''
                                     }`}
                             >
-                                <ImagePlaceholder className="h-[280px] md:h-[340px]" />
+                                <SectionImage
+                                    className="h-[280px] md:h-[340px]"
+                                    src={item.image}
+                                    alt={item.title}
+                                />
                                 <div>
                                     <span className="inline-block text-xs md:text-sm font-semibold tracking-wider uppercase text-primary-color bg-fun-blue px-3 py-1 rounded-full">
                                         {item.subtitle}
@@ -217,7 +245,11 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px]" />
+                        <SectionImage
+                            className="h-[260px] md:h-[360px]"
+                            src="/images/all-service/advanced_procedures/img-11.jpg"
+                            alt="Consultation for laparoscopic gynecological surgery"
+                        />
                     </div>
                 </Wrapper>
             </Section>

@@ -1,4 +1,5 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
 const reasonsForTreatment = [
@@ -14,10 +15,12 @@ const treatmentTypes = [
     {
         title: 'Non-Surgical Treatments',
         desc: 'Commonly use laser or radiofrequency technology to deliver controlled energy to the vaginal tissues. These treatments encourage collagen remodeling, improve tissue elasticity, and support vaginal rejuvenation without incisions or lengthy recovery periods.',
+        img:"/images/all-service/laser_gynecology/img-10.jpg"
     },
     {
         title: 'Surgical Treatments',
         desc: 'For women with more significant tissue laxity or pelvic support concerns, surgical vaginal tightening procedures may be recommended. Surgical treatments are tailored to the individual\u2019s needs and aim to restore vaginal support and function.',
+        img:"/images/all-service/laser_gynecology/img-11.jpg"
     },
 ]
 
@@ -72,14 +75,30 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
+                        <Image
+                            src="/images/all-service/laser_gynecology/img-6.jpg"
+                            alt="Vaginal Tightening Procedures"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
                 </Wrapper>
             </Section>
 
             {/* Understanding Vaginal Laxity */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden order-2 lg:order-1">
+                        <Image
+                            src="/images/all-service/laser_gynecology/img-7.jpg"
+                            alt="Vaginal Tightening Procedures"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
                     <div className="order-1 lg:order-2">
                         <Heading>Understanding Vaginal Laxity</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -149,7 +168,15 @@ export default function page() {
                     <div className="mt-12 grid md:grid-cols-2 gap-8">
                         {treatmentTypes.map((item, idx) => (
                             <div key={idx} className="group">
-                                <ImagePlaceholder className="h-[220px]" />
+                                <div className="relative w-full h-[220px] rounded-2xl overflow-hidden">
+                                    <Image
+                                        src={item.img}
+                                        alt={item.title}
+                                        fill
+                                        className="object-cover"
+                                        priority
+                                    />
+                                </div>
                                 <h3 className="mt-5 font-montserrat text-xl font-bold text-secondry-color">
                                     {item.title}
                                 </h3>
@@ -195,7 +222,15 @@ export default function page() {
                         </p>
                     </div>
 
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
+                        <Image
+                            src="/images/all-service/laser_gynecology/img-8.jpg"
+                            alt="Vaginal Tightening Procedures"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
                 </Wrapper>
             </Section>
 
@@ -250,7 +285,15 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px]" />
+                        <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
+                            <Image
+                                src="/images/all-service/laser_gynecology/img-9.jpg"
+                                alt="Vaginal Tightening Procedures"
+                                fill
+                                className="object-cover"
+                                priority
+                            />
+                        </div>
                     </div>
                 </Wrapper>
             </Section>

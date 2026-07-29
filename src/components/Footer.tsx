@@ -77,16 +77,6 @@ export default function Footer() {
             name: "Laparoscopic surgeries for fibroids, cysts & endometriosis",
             path: "/advanced_procedures_&_surgeries/laparoscopic_surgeries"
         },
-        {
-            key: "Laser treatment for stress urinary incontinence",
-            name: "Laser treatment for stress urinary incontinence",
-            path: "/cosmetic_&_laser_gynecology/laser_treatment_for_stress_urinary_incontinence"
-        },
-        {
-            key: "Vaginal tightening procedures",
-            name: "Vaginal tightening procedures",
-            path: "/cosmetic_&_laser_gynecology/vaginal_tightening_procedures"
-        },
     ]
     const contactInfo: Contact[] = [
         {
