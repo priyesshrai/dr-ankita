@@ -1,4 +1,5 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
 const conditionsLeadingToHysterectomy = [
@@ -15,11 +16,13 @@ const approaches = [
         title: 'Laparoscopic Hysterectomy',
         desc: 'A minimally invasive procedure performed through a few small incisions in the abdomen. A laparoscope, which is a thin instrument with a camera and light, allows the surgeon to view the pelvic organs and remove the uterus with precision. This approach is often recommended for women with fibroids, endometriosis, abnormal uterine bleeding, or other conditions requiring uterine removal. The procedure may involve removing only the uterus or, when medically necessary, additional structures such as the cervix, fallopian tubes, or ovaries.',
         note: 'Because the surgery is performed through small incisions, patients typically experience less pain, reduced blood loss, and a quicker return to normal activities compared to traditional open surgery.',
+        image: '/images/all-service/advanced_procedures/img-14.jpg',
     },
     {
         title: 'Vaginal Hysterectomy',
         desc: 'Involves removing the uterus through the vagina without making any abdominal incisions. It is commonly recommended for conditions such as uterine prolapse, abnormal uterine bleeding, or selected benign gynecological conditions. The absence of external cuts makes vaginal hysterectomy one of the least invasive hysterectomy techniques.',
         note: 'It generally results in less postoperative discomfort, shorter hospital stays, and faster recovery. Many women are able to resume their regular daily activities sooner compared to more extensive surgical approaches.',
+        image: '/images/all-service/advanced_procedures/img-15.jpg',
     },
 ]
 
@@ -33,12 +36,24 @@ const benefits = [
     'Improved overall patient comfort and satisfaction',
 ]
 
-function ImagePlaceholder({ className = '', label = 'Image Placeholder' }: { className?: string; label?: string }) {
+function SectionImage({
+    className = '',
+    src,
+    alt,
+}: {
+    className?: string
+    src: string
+    alt: string
+}) {
     return (
-        <div
-            className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 flex items-center justify-center ${className}`}
-        >
-            <span className="font-open-sans text-sm text-zinc-400">{label}</span>
+        <div className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 ${className}`}>
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </div>
     )
 }
@@ -66,14 +81,22 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/advanced_procedures/img-12.jpg"
+                        alt="Laparoscopic and vaginal hysterectomy"
+                    />
                 </Wrapper>
             </Section>
 
             {/* Understanding Hysterectomy */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <SectionImage
+                        className="h-[300px] md:h-[400px] order-2 lg:order-1"
+                        src="/images/all-service/advanced_procedures/img-13.jpg"
+                        alt="Understanding hysterectomy"
+                    />
                     <div className="order-1 lg:order-2">
                         <Heading>Understanding Hysterectomy</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -112,7 +135,11 @@ export default function page() {
                     <div className="mt-12 grid md:grid-cols-2 gap-8">
                         {approaches.map((item, idx) => (
                             <div key={idx} className="bg-white rounded-2xl p-6 shadow-sm">
-                                <ImagePlaceholder className="h-[220px]" />
+                                <SectionImage
+                                    className="h-[220px]"
+                                    src={item.image}
+                                    alt={item.title}
+                                />
                                 <h3 className="mt-5 font-montserrat text-xl font-bold text-secondry-color">
                                     {item.title}
                                 </h3>
@@ -183,7 +210,11 @@ export default function page() {
                         </p>
                     </div>
 
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/advanced_procedures/img-16.jpg"
+                        alt="Recovery and postoperative care after hysterectomy"
+                    />
                 </Wrapper>
             </Section>
 
@@ -204,7 +235,11 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px]" />
+                        <SectionImage
+                            className="h-[260px] md:h-[360px]"
+                            src="/images/all-service/advanced_procedures/img-17.jpg"
+                            alt="Consultation for hysterectomy"
+                        />
                     </div>
                 </Wrapper>
             </Section>
