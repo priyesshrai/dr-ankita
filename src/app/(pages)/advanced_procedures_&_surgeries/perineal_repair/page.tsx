@@ -1,4 +1,5 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
 const situationsRequiringRepair = [
@@ -31,12 +32,24 @@ const benefits = [
     'Improved comfort during daily activities',
 ]
 
-function ImagePlaceholder({ className = '', label = 'Image Placeholder' }: { className?: string; label?: string }) {
+function SectionImage({
+    className = '',
+    src,
+    alt,
+}: {
+    className?: string
+    src: string
+    alt: string
+}) {
     return (
-        <div
-            className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 flex items-center justify-center ${className}`}
-        >
-            <span className="font-open-sans text-sm text-zinc-400">{label}</span>
+        <div className={`relative w-full rounded-2xl overflow-hidden bg-zinc-200 ${className}`}>
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </div>
     )
 }
@@ -63,14 +76,22 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/advanced_procedures/img-18.png"
+                        alt="Perineal repair postpartum care"
+                    />
                 </Wrapper>
             </Section>
 
             {/* What Is Perineal Repair */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <SectionImage
+                        className="h-[300px] md:h-[400px] order-2 lg:order-1"
+                        src="/images/all-service/advanced_procedures/img-19.png"
+                        alt="What is perineal repair"
+                    />
                     <div className="order-1 lg:order-2">
                         <Heading>What Is Perineal Repair?</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -145,7 +166,11 @@ export default function page() {
                         </p>
                     </div>
 
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/advanced_procedures/img-20.png"
+                        alt="Perineal repair procedure"
+                    />
                 </Wrapper>
             </Section>
 
@@ -254,7 +279,11 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px]" />
+                        <SectionImage
+                            className="h-[260px] md:h-[360px]"
+                            src="/images/all-service/advanced_procedures/img-21.png"
+                            alt="Consultation for perineal repair"
+                        />
                     </div>
                 </Wrapper>
             </Section>
