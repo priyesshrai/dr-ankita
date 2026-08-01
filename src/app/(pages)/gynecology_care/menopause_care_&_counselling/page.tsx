@@ -80,7 +80,7 @@ export default function page() {
                     </div>
                     <div className="relative w-full h-[320px] md:h-[420px] rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=1600&auto=format&fit=crop"
+                            src="/images/all-service/gynecology/img-15.png"
                             alt="Menopause care and counselling"
                             fill
                             className="object-cover"
@@ -95,7 +95,7 @@ export default function page() {
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden order-2 lg:order-1">
                         <Image
-                            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop"
+                            src="/images/all-service/gynecology/img-16.png"
                             alt="Understanding menopause and its impact"
                             fill
                             className="object-cover"
@@ -216,7 +216,7 @@ export default function page() {
 
                     <div className="relative w-full h-[320px] md:h-[520px] rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1584516150909-c43483ee7932?q=80&w=1200&auto=format&fit=crop"
+                            src="/images/all-service/gynecology/img-17.png"
                             alt="Personalised menopause treatment options"
                             fill
                             className="object-cover"
@@ -248,7 +248,7 @@ export default function page() {
                         </div>
                         <div className="relative w-full h-[260px] md:h-[360px] rounded-xl overflow-hidden">
                             <Image
-                                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1200&auto=format&fit=crop"
+                                src="/images/all-service/gynecology/img-18.png"
                                 alt="Menopause counselling and support"
                                 fill
                                 className="object-cover"
