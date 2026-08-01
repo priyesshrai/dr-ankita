@@ -1,12 +1,27 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
-function ImagePlaceholder({ className }: { className?: string }) {
+function SectionImage({
+    className,
+    src,
+    alt,
+}: {
+    className?: string
+    src: string
+    alt: string
+}) {
     return (
         <div
-            className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200 border-2 border-dashed border-zinc-300 flex items-center justify-center`}
+            className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200`}
         >
-            <span className="font-open-sans text-sm font-medium text-zinc-400">Image</span>
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </div>
     )
 }
@@ -103,14 +118,22 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/gynecology/img-10.png"
+                        alt="Pelvic infections treatment"
+                    />
                 </Wrapper>
             </Section>
 
             {/* Understanding Pelvic Infections */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <SectionImage
+                        className="h-[300px] md:h-[400px] order-2 lg:order-1"
+                        src="/images/all-service/gynecology/img-11.png"
+                        alt="Understanding pelvic infections"
+                    />
                     <div className="order-1 lg:order-2">
                         <Heading>Understanding Pelvic Infections</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -182,7 +205,11 @@ export default function page() {
                         </div>
                     </div>
 
-                    <ImagePlaceholder className="h-[320px] md:h-[480px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[480px]"
+                        src="/images/all-service/gynecology/img-12.png"
+                        alt="Common causes of pelvic infections"
+                    />
                 </Wrapper>
             </Section>
 
@@ -198,7 +225,11 @@ export default function page() {
                     </div>
 
                     <div className="mt-12 grid lg:grid-cols-2 gap-10 items-center">
-                        <ImagePlaceholder className="h-[300px] md:h-[420px] order-2 lg:order-1" />
+                        <SectionImage
+                            className="h-[300px] md:h-[420px] order-2 lg:order-1"
+                            src="/images/all-service/gynecology/img-13.png"
+                            alt="Diagnosis and treatment of pelvic infections"
+                        />
 
                         <div className="order-1 lg:order-2 space-y-5">
                             {diagnosisSteps.map((item, idx) => (
@@ -278,7 +309,11 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px] !bg-white/10 !border-white/30" />
+                        <SectionImage
+                            className="h-[260px] md:h-[360px] !bg-white/10"
+                            src="/images/all-service/gynecology/img-14.png"
+                            alt="Consultation for pelvic infection treatment"
+                        />
                     </div>
                 </Wrapper>
             </Section>
