@@ -1,12 +1,27 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import Image from 'next/image'
 import React from 'react'
 
-function ImagePlaceholder({ className }: { className?: string }) {
+function SectionImage({
+  className,
+  src,
+  alt,
+}: {
+  className?: string
+  src: string
+  alt: string
+}) {
   return (
     <div
-      className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200 border-2 border-dashed border-zinc-300 flex items-center justify-center`}
+      className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200`}
     >
-      <span className="font-open-sans text-sm font-medium text-zinc-400">Image</span>
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-cover"
+        sizes="(max-width: 768px) 100vw, 50vw"
+      />
     </div>
   )
 }
@@ -107,14 +122,22 @@ export default function page() {
               <ButtonPrimary>Book a Consultation</ButtonPrimary>
             </div>
           </div>
-          <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+          <SectionImage
+            className="h-[320px] md:h-[420px]"
+            src="/images/all-service/pregnancy/img-10.png"
+            alt="Antenatal and postnatal care"
+          />
         </Wrapper>
       </Section>
 
       {/* Understanding */}
       <Section className="bg-white">
         <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-          <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+          <SectionImage
+            className="h-[300px] md:h-[400px] order-2 lg:order-1"
+            src="/images/all-service/pregnancy/img-11.png"
+            alt="Understanding antenatal and postnatal care"
+          />
           <div className="order-1 lg:order-2">
             <Heading>Understanding Antenatal &amp; Postnatal Care</Heading>
             <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -190,7 +213,11 @@ export default function page() {
             </div>
           </div>
 
-          <ImagePlaceholder className="h-[320px] md:h-[560px]" />
+          <SectionImage
+            className="h-[320px] md:h-[560px]"
+            src="/images/all-service/pregnancy/img-12.png"
+            alt="What to expect during antenatal appointments"
+          />
         </Wrapper>
       </Section>
 
@@ -207,7 +234,11 @@ export default function page() {
           </div>
 
           <div className="mt-12 grid md:grid-cols-2 gap-8">
-            <ImagePlaceholder className="h-[260px] md:h-full md:row-span-2" />
+            <SectionImage
+              className="h-[260px] md:h-full md:row-span-2"
+              src="/images/all-service/pregnancy/img-13.png"
+              alt="Postnatal care and recovery"
+            />
             {postnatalCare.map((item, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
                 <h3 className="font-montserrat text-lg font-bold text-secondry-color">
@@ -254,7 +285,11 @@ export default function page() {
                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
               </div>
             </div>
-            <ImagePlaceholder className="h-[260px] md:h-[400px] !bg-white/10 !border-white/30" />
+            <SectionImage
+              className="h-[260px] md:h-[400px] !bg-white/10"
+              src="/images/all-service/pregnancy/img-14.png"
+              alt="Consultation for antenatal and postnatal care"
+            />
           </div>
         </Wrapper>
       </Section>
