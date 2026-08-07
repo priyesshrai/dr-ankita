@@ -96,7 +96,7 @@ export default function Services() {
             treatment: [
                 {
                     name: "Laser treatment for stress urinary incontinence",
-                    path: "/laser_gynecology/laser_treatment_for_stress_urinary_incontinencee"
+                    path: "/laser_gynecology/laser_treatment_for_stress_urinary_incontinence"
                 },
                 {
                     name: "Vaginal tightening procedures",
