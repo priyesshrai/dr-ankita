@@ -1,16 +1,17 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
 
-function ImagePlaceholder({ className }: { className?: string }) {
-    return (
-        <div
-            className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200 border-2 border-dashed border-zinc-300 flex items-center justify-center`}
-        >
-            <span className="font-open-sans text-sm font-medium text-zinc-400">Image</span>
-        </div>
-    )
+
+export const metadata: Metadata = {
+    title: "Preconception Counselling & Planning",
+    description: "Prepare for a healthy pregnancy with expert preconception counselling, fertility guidance, and lifestyle recommendations.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/pregnancy_&_obstetric_care/preconception_counselling_&_planning",
+    },
 }
+
 
 const consultationCovers = [
     {

@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "High-Risk Pregnancy Management | Dr. Ankita",
+    description: "Specialized care and close monitoring for high-risk pregnancies to support the health of both mother and baby.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/pregnancy_&_obstetric_care/high-risk_pregnancy_management",
+    },
+}
 
 function SectionImage({
     className,

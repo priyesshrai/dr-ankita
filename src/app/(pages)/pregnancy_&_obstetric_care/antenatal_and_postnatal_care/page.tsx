@@ -1,6 +1,17 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+
+export const metadata: Metadata = {
+    title: "Antenatal & Postnatal Care | Dr. Ankita Chauhan",
+    description: "Comprehensive antenatal and postnatal care for a healthy pregnancy, safe delivery, and smooth postpartum recovery.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/pregnancy_&_obstetric_care/antenatal_and_postnatal_care",
+    },
+}
 
 function SectionImage({
   className,

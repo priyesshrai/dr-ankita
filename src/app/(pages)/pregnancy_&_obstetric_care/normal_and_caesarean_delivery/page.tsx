@@ -1,6 +1,17 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Normal & Caesarean Delivery | Dr. Ankita",
+    description: "Personalized care for normal delivery and Caesarean section with a focus on the safety of both mother and baby.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/pregnancy_&_obstetric_care/normal_and_caesarean_delivery",
+    },
+}
+
 
 function SectionImage({
     className,
