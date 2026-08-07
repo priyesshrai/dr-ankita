@@ -46,6 +46,11 @@ export default function BlogPage() {
   return (
     <Section>
       <Wrapper>
+        <div>
+          <h1 className='mt-2 lg:text-4xl md:text-[28px] text-2xl leading-[1.3] font-bold text-secondry-color'>
+            Blogs
+          </h1>
+        </div>
         <div className='w-full relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
           {
             blog.map((blog, idx) => {
