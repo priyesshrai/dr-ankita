@@ -1,6 +1,15 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
-import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Operative Hysteroscopy | Dr. Ankita Chauhan",
+    description: "Know about operative hysteroscopy for diagnosing and treating uterine conditions using advanced minimally invasive techniques.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/advanced_procedures_&_surgeries/operative_hysteroscopy",
+    },
+}
 
 const conditionsTreated = [
     'Uterine polyps',

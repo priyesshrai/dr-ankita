@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
-import React from 'react'
+
+
+
+export const metadata: Metadata = {
+  title: "Laparoscopic & Vaginal Hysterectomy | Dr. Ankita",
+  description: "Learn about laparoscopic and vaginal hysterectomy procedures, their benefits, recovery, and expert surgical care by Dr. Ankita Chauhan.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/advanced_procedures_&_surgeries/laparoscopic_&_vaginal_hysterectomy",
+  },
+}
 
 const conditionsLeadingToHysterectomy = [
     'Uterine fibroids',

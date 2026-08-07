@@ -8,8 +8,8 @@ import { GoogleAnalytics } from "@next/third-parties/google"
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Dr. Ankita Chauhan",
-  description: "Dr. Ankita Chauhan",
+  title: "Best Gynecologist & Obstetrician in Varanasi | Dr. Ankita Chauhan",
+  description: "Consult Dr. Ankita Chauhan, an experienced gynecologist and obstetrician in Varanasi for pregnancy care, infertility treatment, PCOS, and women's health.",
 };
 
 export default function RootLayout({

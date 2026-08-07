@@ -1,6 +1,17 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Perineal Repair Surgery | Dr. Ankita Chauhan",
+    description: "Learn about perineal repair surgery, its benefits, recovery process, and expert care for restoring comfort and function.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/advanced_procedures_&_surgeries/perineal_repair",
+    },
+}
+
 
 const situationsRequiringRepair = [
     'Natural tears during childbirth',
