@@ -1,6 +1,15 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, User } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: "Repeated Miscarriages: Causes & Treatment Guide",
+  description: "Learn the causes, diagnosis, and treatment options for recurrent miscarriages from Dr. Ankita Chauhan.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/blogs/understanding-repeated-miscarriages",
+  },
+}
 
 export default function BlogTwo() {
     const lstOne = [

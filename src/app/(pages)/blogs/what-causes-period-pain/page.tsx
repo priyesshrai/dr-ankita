@@ -1,6 +1,16 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, User } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+    title: "What Causes Period Pain? Symptoms & Treatment",
+    description: "Understand the causes of period pain, warning signs, and effective treatment options for menstrual cramps.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/blogs/what-causes-period-pain",
+    },
+}
+
 
 export default function BlogOne() {
     const lstOne = [

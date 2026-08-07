@@ -1,6 +1,16 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, User } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+
+export const metadata: Metadata = {
+  title: "Understanding Postpartum Depression After Pregnancy",
+  description: "Know the symptoms, causes, treatment, and support options for postpartum depression after childbirth.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/blogs/understanding-postpartum-depression",
+  },
+}
 
 export default function BlogFour() {
 

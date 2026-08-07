@@ -1,7 +1,16 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, User } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
 
+
+export const metadata: Metadata = {
+  title: "Silent PCOS Symptoms Every Woman Should Know",
+  description: "Learn the early signs, causes, diagnosis, and treatment options for silent PCOS from Dr. Ankita Chauhan.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/blogs/symptoms-of-silent-pcos",
+  },
+}
 
 export default function BlogThree() {
     const lstOne = [

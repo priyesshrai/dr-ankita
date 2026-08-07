@@ -1,8 +1,18 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, MoveUpRight, User } from 'lucide-react';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+
+
+export const metadata: Metadata = {
+  title: "Women's Health & Pregnancy Blog | Dr. Ankita Chauhann",
+  description: "Read expert blogs on pregnancy, fertility, PCOS, gynecology, and women's wellness by Dr. Ankita Chauhan to stay informed and healthy.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/blogs",
+  },
+}
 
 interface Blog {
   title: string;
