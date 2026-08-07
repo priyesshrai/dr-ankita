@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Pelvic Infection Treatment | Dr. Ankita Chauhan",
+    description: "Comprehensive diagnosis and treatment for pelvic infections to protect reproductive health and prevent complications.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/gynecology_care/pelvic_infections_treatment",
+    },
+}
 
 function SectionImage({
     className,

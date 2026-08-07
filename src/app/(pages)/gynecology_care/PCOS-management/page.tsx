@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "PCOS Management & Treatment | Dr. Ankita",
+    description: "Get expert PCOS diagnosis and personalized treatment to manage hormones, irregular periods, fertility, and overall reproductive health.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/gynecology_care/PCOS-management",
+    },
+}
 
 function SectionImage({
     className,

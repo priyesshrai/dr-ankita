@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Menopause Care & Counselling | Dr. Ankita",
+    description: "Expert menopause care and counselling to help manage symptoms, hormonal changes, and overall health during menopause.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/gynecology_care/menopause_care_&_counselling",
+    },
+}
 
 const symptoms = [
     { title: 'Hot flashes & night sweats', desc: 'Sudden waves of heat, often followed by sweating and chills, especially at night.' },
