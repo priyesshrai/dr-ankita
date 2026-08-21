@@ -1,8 +1,18 @@
 import { Section, Subheading, Wrapper } from '@/utils/Section'
 import { Calendar, MoveUpRight, User } from 'lucide-react';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+
+
+export const metadata: Metadata = {
+  title: "Women's Health & Pregnancy Blog | Dr. Ankita Chauhann",
+  description: "Read expert blogs on pregnancy, fertility, PCOS, gynecology, and women's wellness by Dr. Ankita Chauhan to stay informed and healthy.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/blogs",
+  },
+}
 
 interface Blog {
   title: string;
@@ -46,6 +56,11 @@ export default function BlogPage() {
   return (
     <Section>
       <Wrapper>
+        <div>
+          <h1 className='mt-2 lg:text-4xl md:text-[28px] text-2xl leading-[1.3] font-bold text-secondry-color'>
+            Blogs
+          </h1>
+        </div>
         <div className='w-full relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
           {
             blog.map((blog, idx) => {

@@ -1,6 +1,15 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
-import React from 'react'
+
+
+export const metadata: Metadata = {
+  title: "Advanced Laparoscopic Surgeries | Dr. Ankita",
+  description: "Explore minimally invasive laparoscopic gynecological surgeries for faster recovery, less pain, and better treatment outcomes.",
+  alternates: {
+    canonical: "https://www.drankitachauhan.com/advanced_procedures_&_surgeries/laparoscopic_surgeries",
+  },
+}
 
 const fibroidSymptoms = [
     'Heavy menstrual bleeding',

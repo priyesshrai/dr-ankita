@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+export const metadata: Metadata = {
+    title: "Laser Vaginal Tightening Procedures",
+    description: "Safe and effective laser vaginal tightening procedures designed to improve comfort, confidence, and intimate wellness.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/laser_gynecology/vaginal_tightening_procedures",
+    },
+}
+
 
 const reasonsForTreatment = [
     'Feeling of vaginal looseness',

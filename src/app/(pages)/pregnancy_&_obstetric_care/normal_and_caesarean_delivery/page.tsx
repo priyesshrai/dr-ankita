@@ -1,12 +1,38 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
+import Image from 'next/image'
 import React from 'react'
 
-function ImagePlaceholder({ className }: { className?: string }) {
+
+export const metadata: Metadata = {
+    title: "Normal & Caesarean Delivery | Dr. Ankita",
+    description: "Personalized care for normal delivery and Caesarean section with a focus on the safety of both mother and baby.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/pregnancy_&_obstetric_care/normal_and_caesarean_delivery",
+    },
+}
+
+
+function SectionImage({
+    className,
+    src,
+    alt,
+}: {
+    className?: string
+    src: string
+    alt: string
+}) {
     return (
         <div
-            className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200 border-2 border-dashed border-zinc-300 flex items-center justify-center`}
+            className={`${className ?? ''} relative w-full rounded-2xl overflow-hidden bg-zinc-200`}
         >
-            <span className="font-open-sans text-sm font-medium text-zinc-400">Image</span>
+            <Image
+                src={src}
+                alt={alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </div>
     )
 }
@@ -47,14 +73,17 @@ const recoveryCards = [
     {
         title: 'After Normal Delivery',
         desc: 'Recovery is generally quicker, and many women return to daily activities within a shorter time. Mild soreness, bleeding, and fatigue are common in the initial period.',
+        image: '/images/all-service/pregnancy/img-19.png',
     },
     {
         title: 'After Caesarean Delivery',
         desc: 'Recovery may take longer as it involves abdominal surgery. Avoiding heavy lifting, proper rest, and careful wound care support healing and prevent infection.',
+        image: '/images/all-service/pregnancy/img-20.png',
     },
     {
         title: 'For Every Mother',
         desc: 'Breastfeeding support, hydration, healthy eating, and emotional care are essential after both types of delivery, alongside regular follow-up checkups.',
+        image: '/images/all-service/pregnancy/img-21.png',
     },
 ]
 
@@ -80,14 +109,22 @@ export default function page() {
                             <ButtonPrimary>Book a Consultation</ButtonPrimary>
                         </div>
                     </div>
-                    <ImagePlaceholder className="h-[320px] md:h-[420px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[420px]"
+                        src="/images/all-service/pregnancy/img-15.png"
+                        alt="Normal and caesarean delivery"
+                    />
                 </Wrapper>
             </Section>
 
             {/* Understanding Both Options */}
             <Section className="bg-white">
                 <Wrapper className="grid lg:grid-cols-2 gap-12 items-center">
-                    <ImagePlaceholder className="h-[300px] md:h-[400px] order-2 lg:order-1" />
+                    <SectionImage
+                        className="h-[300px] md:h-[400px] order-2 lg:order-1"
+                        src="/images/all-service/pregnancy/img-16.png"
+                        alt="Understanding normal and caesarean delivery"
+                    />
                     <div className="order-1 lg:order-2">
                         <Heading>Understanding Normal &amp; Caesarean Delivery</Heading>
                         <Subheading className="mt-3 lg:!text-base !text-zinc-600 leading-relaxed">
@@ -142,7 +179,11 @@ export default function page() {
                         </div>
 
                         <div>
-                            <ImagePlaceholder className="h-[260px] md:h-[340px]" />
+                            <SectionImage
+                                className="h-[260px] md:h-[340px]"
+                                src="/images/all-service/pregnancy/img-17.png"
+                                alt="Benefits of normal delivery"
+                            />
                             <div className="mt-6 bg-white rounded-xl p-6 shadow-sm">
                                 <h3 className="font-montserrat text-lg font-bold text-secondry-color">
                                     Benefits of Normal Delivery
@@ -198,7 +239,11 @@ export default function page() {
                         </div>
                     </div>
 
-                    <ImagePlaceholder className="h-[320px] md:h-[520px]" />
+                    <SectionImage
+                        className="h-[320px] md:h-[520px]"
+                        src="/images/all-service/pregnancy/img-18.png"
+                        alt="Understanding caesarean section delivery"
+                    />
                 </Wrapper>
             </Section>
 
@@ -217,7 +262,11 @@ export default function page() {
                     <div className="mt-12 grid md:grid-cols-3 gap-8">
                         {recoveryCards.map((item, idx) => (
                             <div key={idx} className="group">
-                                <ImagePlaceholder className="h-[220px]" />
+                                <SectionImage
+                                    className="h-[220px]"
+                                    src={item.image}
+                                    alt={item.title}
+                                />
                                 <h3 className="mt-5 font-montserrat text-xl font-bold text-secondry-color">
                                     {item.title}
                                 </h3>
@@ -259,7 +308,11 @@ export default function page() {
                                 <ButtonPrimary>Schedule Your Consultation</ButtonPrimary>
                             </div>
                         </div>
-                        <ImagePlaceholder className="h-[260px] md:h-[360px] !bg-white/10 !border-white/30" />
+                        <SectionImage
+                            className="h-[260px] md:h-[360px] !bg-white/10"
+                            src="/images/all-service/pregnancy/img-22.png"
+                            alt="Consultation for delivery method planning"
+                        />
                     </div>
                 </Wrapper>
             </Section>

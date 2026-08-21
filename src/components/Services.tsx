@@ -2,10 +2,9 @@
 import Background from '@/utils/Background';
 import { Heading, Section, Subheading, Wrapper } from '@/utils/Section'
 import Image from 'next/image';
-import { motion } from "motion/react";
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link';
-import { ChevronsRight, ExternalLink, MoveUpRight } from 'lucide-react';
+import { ChevronsRight, MoveUpRight } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 interface Services {
@@ -97,7 +96,7 @@ export default function Services() {
             treatment: [
                 {
                     name: "Laser treatment for stress urinary incontinence",
-                    path: "/laser_gynecology/laser_treatment_for_stress_urinary_incontinencee"
+                    path: "/laser_gynecology/laser_treatment_for_stress_urinary_incontinence"
                 },
                 {
                     name: "Vaginal tightening procedures",
@@ -115,9 +114,14 @@ export default function Services() {
                         <span className='text-base text-[#e11d48] font-medium block mb-1'>
                             OUR SERVICES
                         </span>
-                        <Heading>
+                        {
+                            currentPath === "/" && <Heading>
+                                Comprehensive <span className='!font-open-sans text-primary-color'>Women&apos;s Health Services</span>
+                            </Heading>
+                        }
+                        {currentPath === "/services" && <h1 className='lg:text-4xl md:text-[28px] text-2xl leading-[1.3] font-bold text-secondry-color'>
                             Comprehensive <span className='!font-open-sans text-primary-color'>Women&apos;s Health Services</span>
-                        </Heading>
+                        </h1>}
                         <Subheading className='mx-auto max-w-3xl'>
                             Expert care and advanced treatments focused on every stage of a woman&apos;s health journey — from fertility and pregnancy to wellness, recovery, and beyond.
                         </Subheading>

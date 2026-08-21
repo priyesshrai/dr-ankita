@@ -1,17 +1,22 @@
+"use client";
 import { ButtonPrimary, Heading, Section, Subheading, Wrapper } from '@/utils/Section';
+import { usePathname } from 'next/navigation';
 import React from 'react'
 
 export default function Contact() {
-
+    const currentPath = usePathname()
     return (
         <Section>
             <Wrapper>
                 <div className='relative w-full flex flex-col lg:gap-14 md:gap-10 gap-8'>
                     <div className='flex-1 text-center'>
                         <span className='text-base font-medium text-[#e11d48]' >CONTACT US</span>
-                        <Heading>
+                        {currentPath === "/" && <Heading>
                             Get in <span className='!font-open-sans text-primary-color'>Touch with us Now</span>
-                        </Heading>
+                        </Heading>}
+                        {currentPath === "/contact" && <h1 className='lg:text-4xl md:text-[28px] text-2xl leading-[1.3] font-bold text-secondry-color'>
+                            Get in <span className='!font-open-sans text-primary-color'>Touch with us Now</span>
+                        </h1>}
                         <Subheading className='max-w-md mx-auto'>
                             Ready to take the next step in your healthcare journey? Get in touch with us today.
                         </Subheading>

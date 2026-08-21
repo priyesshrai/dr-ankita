@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+export const metadata: Metadata = {
+    title: "Laser Treatment for Urinary Incontinence",
+    description: "Advanced laser treatment for stress urinary incontinence to improve bladder control with minimally invasive care.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/laser_gynecology/laser_treatment_for_stress_urinary_incontinence",
+    },
+}
+
 
 const riskFactors = [
     'Childbirth',

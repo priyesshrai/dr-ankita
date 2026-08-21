@@ -42,9 +42,9 @@ export default function AboutDesc() {
                         <span className='text-base font-medium text-[#e11d48] '>
                             Doctor Overview
                         </span>
-                        <Heading className='mt-2'>
+                        <h1 className='mt-2 lg:text-4xl md:text-[28px] text-2xl leading-[1.3] font-bold text-secondry-color'>
                             Dr. Ankita Chauhan
-                        </Heading>
+                        </h1>
                         <Subheading>
                             Dr. Ankita Chauhan is a Consultant Obstetrician and Gynecologist with extensive experience in managing a wide spectrum of women&apos;s health concerns. Her clinical practice focuses on providing comprehensive care across pregnancy, childbirth, and gynecological health, with special attention to individual patient needs.
                         </Subheading>

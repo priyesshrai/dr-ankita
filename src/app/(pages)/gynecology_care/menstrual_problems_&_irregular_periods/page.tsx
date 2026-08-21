@@ -1,6 +1,16 @@
 import { Section, Wrapper, Heading, Subheading, ButtonPrimary } from '@/utils/Section'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
+
+
+export const metadata: Metadata = {
+    title: "Menstrual Problems & Irregular Periods Treatment",
+    description: "Effective diagnosis and treatment for irregular periods, heavy bleeding, painful menstruation, and other menstrual disorders.",
+    alternates: {
+        canonical: "https://www.drankitachauhan.com/gynecology_care/menstrual_problems_&_irregular_periods",
+    },
+}
 
 const commonProblems = [
     {
